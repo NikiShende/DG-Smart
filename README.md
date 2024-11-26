@@ -1,0 +1,2 @@
+# DG-Smart
+flutter application
