@@ -1,3 +1,7 @@
+<<<<<<< HEAD  your changes here(local repository)
+=======
+Changes from the remote repository here
+>>>>>>> origin/main
 # first_program
 
 A new Flutter project.
@@ -14,3 +18,7 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+=======
+# DG-Smart
+flutter application
+>>>>>>> 236d5057b8e95b4cd3f2142e1cf292db55391129
