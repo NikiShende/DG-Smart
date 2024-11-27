@@ -11,6 +11,7 @@ class Homework extends StatefulWidget {
 }
 
 class _HomeworkState extends State<Homework> {
+  
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -89,6 +90,14 @@ class _HomeworkState extends State<Homework> {
                   decoration: BoxDecoration(
                     color: const Color(0xFFF5EEEE),
                     borderRadius: BorderRadius.circular(10),
+                     boxShadow: [
+                  BoxShadow(
+                    color: const Color.fromARGB(255, 214, 210, 210),
+                    
+                    spreadRadius: 2,
+
+                  )
+                ],
                    image: DecorationImage(image: AssetImage('assets/images/english.png',), 
                 
                   alignment: Alignment.center),
@@ -97,6 +106,7 @@ class _HomeworkState extends State<Homework> {
                   
                    child: InkWell(
                     onTap: (){
+                      
                       
                       Navigator.push( context,
                                 MaterialPageRoute(
@@ -123,6 +133,14 @@ class _HomeworkState extends State<Homework> {
                   decoration: BoxDecoration(
                      color: const Color(0xFFF5EEEE),
                     borderRadius: BorderRadius.circular(10),
+                     boxShadow: [
+                  BoxShadow(
+                    color: const Color.fromARGB(255, 214, 210, 210),
+                    
+                    spreadRadius: 2,
+
+                  )
+                ],
                    image: DecorationImage(image: AssetImage('assets/images/marathi.png')),
 
                   ),
@@ -140,6 +158,14 @@ class _HomeworkState extends State<Homework> {
                   decoration: BoxDecoration(
                      color: const Color(0xFFF5EEEE),
                     borderRadius: BorderRadius.circular(10),
+                     boxShadow: [
+                  BoxShadow(
+                    color: const Color.fromARGB(255, 214, 210, 210),
+                    
+                    spreadRadius: 2,
+
+                  )
+                ],
                    image: DecorationImage(image: AssetImage('assets/images/hindi.png')),
 
                   ),
@@ -158,6 +184,14 @@ class _HomeworkState extends State<Homework> {
                   decoration: BoxDecoration(
                    color: const Color(0xFFF5EEEE),
                     borderRadius: BorderRadius.circular(10),
+                     boxShadow: [
+                  BoxShadow(
+                    color: const Color.fromARGB(255, 214, 210, 210),
+                    
+                    spreadRadius: 2,
+
+                  )
+                ],
                    image: DecorationImage(image: AssetImage('assets/images/science.png')),
 
                   ),
@@ -176,6 +210,14 @@ class _HomeworkState extends State<Homework> {
                   decoration: BoxDecoration(
                      color: const Color(0xFFF5EEEE),
                     borderRadius: BorderRadius.circular(10),
+                     boxShadow: [
+                  BoxShadow(
+                    color: const Color.fromARGB(255, 214, 210, 210),
+                    
+                    spreadRadius: 2,
+
+                  )
+                ],
                    image: DecorationImage(image: AssetImage('assets/images/math.png')),
 
                   ),
@@ -193,6 +235,14 @@ class _HomeworkState extends State<Homework> {
                   decoration: BoxDecoration(
                     color: const Color(0xFFF5EEEE),
                     borderRadius: BorderRadius.circular(10),
+                     boxShadow: [
+                  BoxShadow(
+                    color: const Color.fromARGB(255, 214, 210, 210),
+                    
+                    spreadRadius: 2,
+
+                  )
+                ],
                    image: DecorationImage(image: AssetImage('assets/images/history.png')),
 
                   ),
@@ -211,6 +261,14 @@ class _HomeworkState extends State<Homework> {
                   decoration: BoxDecoration(
                       color: const Color(0xFFF5EEEE),
                     borderRadius: BorderRadius.circular(10),
+                     boxShadow: [
+                  BoxShadow(
+                    color: const Color.fromARGB(255, 214, 210, 210),
+                    
+                    spreadRadius: 2,
+
+                  )
+                ],
                    image: DecorationImage(image: AssetImage('assets/images/Arts.png')),
 
                   ),
@@ -229,6 +287,15 @@ class _HomeworkState extends State<Homework> {
                   decoration: BoxDecoration(
                   color: const Color(0xFFF5EEEE),
                     borderRadius: BorderRadius.circular(10),
+                     boxShadow: [
+                  BoxShadow(
+                    color: const Color.fromARGB(255, 214, 210, 210),
+
+
+                    spreadRadius: 2,
+
+                  )
+                ],
                    image: DecorationImage(image: AssetImage('assets/images/sports.png')),
 
                   ),

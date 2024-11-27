@@ -1,7 +1,9 @@
 import 'package:first_program/profile.dart';
+import 'package:first_program/settings.dart';
 import 'package:flutter/material.dart';
 import 'package:first_program/homework.dart';
 import 'package:first_program/syllabus.dart';
+import 'package:first_program/settings.dart';
 
 class student_home extends StatefulWidget {
   const student_home({super.key});
@@ -62,7 +64,13 @@ class _student_homeState extends State<student_home> {
               leading: Icon(Icons.settings),
               title: Text('Settings'),
               onTap: () {
-                Navigator.pop(context); 
+                 Navigator.push( context,
+                                MaterialPageRoute(
+                                  builder: (BuildContext context) {
+                                    return Settings();
+                                  },
+                                ),
+                              );
               },
             ),
             ListTile(
@@ -97,6 +105,9 @@ class _student_homeState extends State<student_home> {
                     decoration: BoxDecoration(
                       color: const Color.fromARGB(255, 11, 14, 210), // Background color
                       borderRadius: BorderRadius.circular(15),
+
+
+
                     ),
                     child: Row(
                       children: [
@@ -175,6 +186,14 @@ class _student_homeState extends State<student_home> {
                           decoration: BoxDecoration(
                             color: const Color(0xFFF5EEEE),
                             borderRadius: BorderRadius.circular(14),
+                             boxShadow: [
+                        BoxShadow(
+                        color: const Color.fromARGB(255, 214, 210, 210),
+                    
+                    spreadRadius: 2,
+
+                  )
+                ],
                             image: DecorationImage(
                                 image: AssetImage('assets/images/homework.png')),
                           ),
@@ -207,6 +226,14 @@ class _student_homeState extends State<student_home> {
                        decoration: BoxDecoration(
                         color: const Color(0xFFF5EEEE),
                         borderRadius: BorderRadius.circular(14),
+                         boxShadow: [
+                  BoxShadow(
+                    color: const Color.fromARGB(255, 214, 210, 210),
+                    
+                    spreadRadius: 2,
+
+                  )
+                ],
                         image: DecorationImage(image: AssetImage('assets/images/syllabus.png')),
                       
                       ),
@@ -231,6 +258,14 @@ class _student_homeState extends State<student_home> {
                       decoration: BoxDecoration(
                         color: const Color(0xFFF5EEEE),
                         borderRadius: BorderRadius.circular(14),
+                         boxShadow: [
+                  BoxShadow(
+                    color: const Color.fromARGB(255, 214, 210, 210),
+                    
+                    spreadRadius: 2,
+
+                  )
+                ],
                         image: DecorationImage(image: AssetImage('assets/images/chat.png')),
                         
                       ),
@@ -249,6 +284,14 @@ class _student_homeState extends State<student_home> {
                         decoration: BoxDecoration(
                         color: const Color(0xFFF5EEEE),
                         borderRadius: BorderRadius.circular(14),
+                         boxShadow: [
+                  BoxShadow(
+                    color: const Color.fromARGB(255, 214, 210, 210),
+                    
+                    spreadRadius: 2,
+
+                  )
+                ],
                         image: DecorationImage(image: AssetImage('assets/images/tablet.png')),
                       
                       ),
@@ -267,6 +310,14 @@ class _student_homeState extends State<student_home> {
                                         decoration: BoxDecoration(
                         color: const Color(0xFFF5EEEE),
                         borderRadius: BorderRadius.circular(14),
+                         boxShadow: [
+                  BoxShadow(
+                    color: const Color.fromARGB(255, 214, 210, 210),
+                    
+                    spreadRadius: 2,
+
+                  )
+                ],
                         image: DecorationImage(image: AssetImage('assets/images/mobile.png')),
                       
                       ),
@@ -285,6 +336,14 @@ class _student_homeState extends State<student_home> {
                                         decoration: BoxDecoration(
                         color: const Color(0xFFF5EEEE),
                         borderRadius: BorderRadius.circular(14),
+                         boxShadow: [
+                  BoxShadow(
+                    color: const Color.fromARGB(255, 214, 210, 210),
+                    
+                    spreadRadius: 2,
+
+                  )
+                ],
                         image: DecorationImage(image: AssetImage('assets/images/Group.png')),
                       
                       ),
@@ -303,6 +362,14 @@ class _student_homeState extends State<student_home> {
                                         decoration: BoxDecoration(
                         color: const Color(0xFFF5EEEE),
                         borderRadius: BorderRadius.circular(14),
+                         boxShadow: [
+                  BoxShadow(
+                    color: const Color.fromARGB(255, 214, 210, 210),
+                    
+                    spreadRadius: 2,
+
+                  )
+                ],
                         image: DecorationImage(image: AssetImage('assets/images/calender.png')),
                       
                       ),
@@ -321,6 +388,14 @@ class _student_homeState extends State<student_home> {
                        decoration: BoxDecoration(
                        color: const Color(0xFFF5EEEE),
                         borderRadius: BorderRadius.circular(14),
+                         boxShadow: [
+                  BoxShadow(
+                    color: const Color.fromARGB(255, 214, 210, 210),
+                    
+                    spreadRadius: 2,
+
+                  )
+                ],
                         image: DecorationImage(image: AssetImage('assets/images/chat.png')),
                       
                       ),
@@ -339,6 +414,14 @@ class _student_homeState extends State<student_home> {
                            decoration: BoxDecoration(
                         color: const Color(0xFFF5EEEE),
                         borderRadius: BorderRadius.circular(14),
+                         boxShadow: [
+                  BoxShadow(
+                    color: const Color.fromARGB(255, 214, 210, 210),
+                    
+                    spreadRadius: 2,
+
+                  )
+                ],
                       
                         image: DecorationImage(image: AssetImage('assets/images/report.png')),
                       
@@ -358,6 +441,14 @@ class _student_homeState extends State<student_home> {
                           decoration: BoxDecoration(
                         color: const Color(0xFFF5EEEE),
                         borderRadius: BorderRadius.circular(14),
+                         boxShadow: [
+                  BoxShadow(
+                    color: const Color.fromARGB(255, 214, 210, 210),
+                    
+                    spreadRadius: 2,
+
+                  )
+                ],
             
                         image: DecorationImage(image: AssetImage('assets/images/result.png')),
                       

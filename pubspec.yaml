@@ -86,6 +86,18 @@ flutter:
     - assets/images/Arts.png
     - assets/images/sports.png
     - assets/images/profile_stud.png
+
+    - assets/images/user.png
+    - assets/images/shield.png
+    - assets/images/bell-off.png
+    - assets/images/globe.png
+
+    - assets/images/activity.png
+
+    - assets/images/vector.png
+
+    - assets/images/log-out.png
+    
     
    
    
