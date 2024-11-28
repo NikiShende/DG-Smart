@@ -83,10 +83,10 @@ class _HomeworkState extends State<Homework> {
             Expanded(child: 
             Container(
               child: GridView.count(crossAxisCount: 2,
-              mainAxisSpacing: 5, crossAxisSpacing: 5,
+              mainAxisSpacing: 1, crossAxisSpacing: 1,
               children: [
                 Container(     
-                  margin: EdgeInsets.all(14),
+                  margin: EdgeInsets.all(10),
                   decoration: BoxDecoration(
                     color: const Color(0xFFF5EEEE),
                     borderRadius: BorderRadius.circular(10),
@@ -129,7 +129,7 @@ class _HomeworkState extends State<Homework> {
                
                 Container(     
                  
-                    margin: EdgeInsets.all(14),
+                    margin: EdgeInsets.all(10),
                   decoration: BoxDecoration(
                      color: const Color(0xFFF5EEEE),
                     borderRadius: BorderRadius.circular(10),
@@ -154,7 +154,7 @@ class _HomeworkState extends State<Homework> {
 
                 ),
                 Container(     
-                   margin: EdgeInsets.all(14),
+                   margin: EdgeInsets.all(10),
                   decoration: BoxDecoration(
                      color: const Color(0xFFF5EEEE),
                     borderRadius: BorderRadius.circular(10),
@@ -180,7 +180,7 @@ class _HomeworkState extends State<Homework> {
                 ),
                 Container(     
                  
-                    margin: EdgeInsets.all(14),
+                    margin: EdgeInsets.all(10),
                   decoration: BoxDecoration(
                    color: const Color(0xFFF5EEEE),
                     borderRadius: BorderRadius.circular(10),
@@ -206,7 +206,7 @@ class _HomeworkState extends State<Homework> {
                 ),
                 Container(     
                  
-                   margin: EdgeInsets.all(14),
+                   margin: EdgeInsets.all(10),
                   decoration: BoxDecoration(
                      color: const Color(0xFFF5EEEE),
                     borderRadius: BorderRadius.circular(10),
@@ -231,7 +231,7 @@ class _HomeworkState extends State<Homework> {
 
                 ),
                 Container(     
-                    margin: EdgeInsets.all(14),
+                    margin: EdgeInsets.all(10),
                   decoration: BoxDecoration(
                     color: const Color(0xFFF5EEEE),
                     borderRadius: BorderRadius.circular(10),
@@ -257,7 +257,7 @@ class _HomeworkState extends State<Homework> {
                 ),
                 Container(     
                 
-                    margin: EdgeInsets.all(14),
+                    margin: EdgeInsets.all(10),
                   decoration: BoxDecoration(
                       color: const Color(0xFFF5EEEE),
                     borderRadius: BorderRadius.circular(10),
@@ -283,7 +283,7 @@ class _HomeworkState extends State<Homework> {
                 ),
                 Container(     
                
-                  margin: EdgeInsets.all(14),
+                  margin: EdgeInsets.all(10),
                   decoration: BoxDecoration(
                   color: const Color(0xFFF5EEEE),
                     borderRadius: BorderRadius.circular(10),

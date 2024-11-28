@@ -45,7 +45,7 @@ class  _loginpageState extends State <login_page> {
                     Container(
                       child: TextButton(
                         style: TextButton.styleFrom(minimumSize:Size(105, 40), shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10.0),side: BorderSide(color: const Color.fromARGB(137, 123, 111, 111))),),
-                        child: Text('student'),
+                        child: Text('student',style: TextStyle(fontSize: 16,color: Colors.black),),
                         
                         onPressed: ()
                       {
@@ -56,7 +56,7 @@ class  _loginpageState extends State <login_page> {
                      SizedBox(width: 10,),
                      TextButton(
                       style: TextButton.styleFrom(minimumSize:Size(105, 40),shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10.0),side: BorderSide(color: const Color.fromARGB(137, 123, 111, 111)))),
-                      child: Text('Parent'),
+                      child: Text('Parent',style: TextStyle(fontSize: 16,color: Colors.black),),
                       
                       onPressed: ()
                     {
@@ -68,7 +68,7 @@ class  _loginpageState extends State <login_page> {
                      SizedBox(width: 15,),
                      TextButton(
                       style: TextButton.styleFrom(minimumSize:Size(105, 40),shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10.0),side: BorderSide(color: const Color.fromARGB(137, 123, 111, 111)))),
-                      child: Text('Staff'),
+                      child: Text('Staff',style: TextStyle(fontSize: 16,color: Colors.black),),
                       
                       onPressed: ()
                     {
@@ -87,7 +87,8 @@ class  _loginpageState extends State <login_page> {
                 
                  SizedBox(height: 20,),
                    Padding(
-                     padding: const EdgeInsets.all(5.0),
+                     padding: const EdgeInsets.only(left: 20),
+                     
                      child: TextField(
                       keyboardType:TextInputType.emailAddress ,
                       decoration: InputDecoration(
@@ -101,12 +102,12 @@ class  _loginpageState extends State <login_page> {
 
                 SizedBox(height: 8,),      
                    Padding(
-                    padding: const EdgeInsets.all(5.0),
+                    padding: const EdgeInsets.only(left: 20),
                     child: TextField(
                       textAlign: TextAlign.left,
                       keyboardType:TextInputType.visiblePassword,
                       
-                      decoration: InputDecoration(hintText:"Password(OTP)",hintStyle: TextStyle(fontSize: 15,fontWeight: FontWeight.w300)
+                      decoration: InputDecoration(hintText:"Password/OTP",hintStyle: TextStyle(fontSize: 15,fontWeight: FontWeight.w300)
                             
                       ),
                     

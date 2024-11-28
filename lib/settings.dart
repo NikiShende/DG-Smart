@@ -31,7 +31,11 @@ class _SettingsState extends State<Settings> {
                 SizedBox(width: 20,),
               Padding(
                 padding: const EdgeInsets.only(top: 20),
-                child: Image.asset('assets/images/previous.png',height: 50,color: Colors.black,),
+                child: InkWell(
+                  onTap: (){
+                    Navigator.pop(context);
+                  },
+                  child: Image.asset('assets/images/previous.png',height: 50,color: Colors.black,)),
               ),
               SizedBox(width: 50,),
               Padding(
@@ -41,7 +45,7 @@ class _SettingsState extends State<Settings> {
               ],
             ),
           ),
-          SizedBox(height: 14,),
+          SizedBox(height: 25,),
           Container(
             
             height: 55,
@@ -87,38 +91,121 @@ class _SettingsState extends State<Settings> {
           ),
           Column(
             children: [
-                Row(
-                  children: [
-                    Image.asset('assets/images/user.png'),
-                    Text('Account Preferences')
-                  ],
-                ),
-                Row(
-                  children: [
-                    Image.asset('assets/images/user.png'),
-                    Text('Account Preferences')
-                  ],
-                ),
-                
-                Row(
-                  children: [
-                    Image.asset('assets/images/user.png'),
-                    Text('Account Preferences')
-                  ],
-                ),
+              SizedBox(height: 30,),
+                Container(
+                  height: 40,
 
-                Row(
-                  children: [
-                    Image.asset('assets/images/user.png'),
-                    Text('Account Preferences')
-                  ],
+                  child: Row(
+                    children: [
+                      SizedBox(width: 25,),
+                      Image.asset('assets/images/user.png'),
+                      SizedBox(width: 15,),
+                      Text('Account Preferences',style: TextStyle(fontSize: 20),)
+                    ],
+                  ),
                 ),
-                Row(
-                  children: [
-                    Image.asset('assets/images/user.png'),
-                    Text('Account Preferences')
-                  ],
+            SizedBox(height: 10,),
+
+                Container(
+                  height: 40,
+
+                  child: Row(
+                    children: [
+                      SizedBox(width: 25,),
+                      Image.asset('assets/images/shield.png'),
+                      SizedBox(width: 15,),
+                      Text('Privacy and permission',style: TextStyle(fontSize: 20),)
+                    ],
+                  ),
                 ),
+                  SizedBox(height: 10,),
+                Container(
+                  height: 40,
+
+                  child: Row(
+                    children: [
+                      SizedBox(width: 25,),
+                      Image.asset('assets/images/bell-off.png'),
+                      SizedBox(width: 15,),
+                      Text('Notifications',style: TextStyle(fontSize: 20),)
+                    ],
+                  ),
+                ),
+                  SizedBox(height: 10,),
+                Container(
+                  height: 40,
+
+                  child: Row(
+                    children: [
+                      SizedBox(width: 25,),
+                      Image.asset('assets/images/globe.png'),
+                      SizedBox(width: 15,),
+                      Text('Language',style: TextStyle(fontSize: 20),)
+                    ],
+                  ),
+                ),
+                  SizedBox(height: 10,),
+                Container(
+                  height: 40,
+
+                  child: Row(
+                    children: [
+                      SizedBox(width: 25,),
+                      Image.asset('assets/images/globe.png'),
+                      SizedBox(width: 15,),
+                      Text('Data Usage',style: TextStyle(fontSize: 20),)
+                    ],
+                  ),
+                ),
+                  SizedBox(height: 10,),
+                Container(
+                  height: 40,
+
+                  child: Row(
+                    children: [
+                      SizedBox(width: 25,),
+                      Image.asset('assets/images/activity.png'),
+                      SizedBox(width: 15,),
+                      Text('Activity History',style: TextStyle(fontSize: 20),)
+                    ],
+                  ),
+                ),
+                  SizedBox(height: 10,),
+                Container(
+                  height: 40,
+
+                  child: Row(
+                    children: [
+                      SizedBox(width: 25,),
+                      Image.asset('assets/images/vector.png'),
+                      SizedBox(width: 15,),
+                      Text('Dark Mode',style: TextStyle(fontSize: 20),)
+                    ],
+                  ),
+                ),
+                SizedBox(height: 10,),
+                Container(
+                  height: 40,
+
+                  child: Row(
+                    children: [
+                      SizedBox(width: 25,),
+                      Image.asset('assets/images/log-out.png'),
+                      SizedBox(width: 15,),
+                      Text('Sign Out',style: TextStyle(fontSize: 20),)
+                    ],
+                  ),
+                ),
+                SizedBox(height: 10,),
+                Padding(
+                  padding: const EdgeInsets.only(right: 90,top: 5),
+                  child: Container(
+                    child: Text('VERSION:4.1.913',style: TextStyle(fontSize: 20),),
+                  ),
+                )
+
+
+
             ],
           )
 
