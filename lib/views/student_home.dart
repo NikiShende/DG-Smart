@@ -1,9 +1,11 @@
+import 'package:first_program/about.dart';
 import 'package:first_program/profile.dart';
 import 'package:first_program/settings.dart';
 import 'package:flutter/material.dart';
 import 'package:first_program/homework.dart';
 import 'package:first_program/syllabus.dart';
 import 'package:first_program/settings.dart';
+import 'package:first_program/about.dart';
 
 class student_home extends StatefulWidget {
   const student_home({super.key});
@@ -57,7 +59,13 @@ class _student_homeState extends State<student_home> {
               leading: Icon(Icons.info),
               title: Text('About School'),
              onTap: () {
-                Navigator.pop(context); // Close the drawer
+                 Navigator.push( context,
+                                MaterialPageRoute(
+                                  builder: (BuildContext context) {
+                                    return About();
+                                  },
+                                ),
+                              );
               },
             ),
             ListTile(
